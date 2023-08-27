@@ -37,6 +37,6 @@ int main()
 	cout << "\nCipher text: " ;
     string p=encrypt(text, s);
     cout<<p<<endl;
-    cout<<"decrpyted test: "<<decrypt(p,s)<<endl;
+    cout<<"decrpyted text: "<<decrypt(p,s)<<endl;
 	return 0;
 }
